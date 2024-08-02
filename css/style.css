@@ -106,13 +106,18 @@ body {
   margin: 8px 0px;
 }
 
-.titulo {
+.titulo-principal {
   max-width: 300px;
   display: flex;
   flex-direction: column;
 }
 
-.tenebrio-molitor {
+.titulo-secundario {
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+}
+
+.grilo {
   position: relative;
   margin-left: 2rem;
 }
@@ -141,49 +146,11 @@ body {
 .consideracoes-finais {
   padding: 10px;
 }
-
-#permitidos {
-  display: flex;
-  justify-content: center;
-}
-
-#permitidos ul {
-  width: 80%;
-}
-
-#permitidos ul li {
-  display: flex;
-  align-items: flex-start;
-  margin-left: 20px;
-}
-
-#permitidos li div {
-  display: flex;
-}
-
-#permitidos li span {
-  margin: 0.3rem;
-  text-align: justify;
-}
-
-#permitidos img {
-  width: 40px;
-}
-
-#permitidos span {
-  display: flex;
-}
-
-#permitidos span img {
-  width: 25px;
-  margin-left: 5px;
-}
-
 #icones {
-    font-size: 0.8rem;
-    color: #837a6e;
-    text-decoration: none;
-    float: right;
+  font-size: 0.8rem;
+  color: #837a6e;
+  text-decoration: none;
+  float: right;
 }
 
 footer nav {
@@ -228,14 +195,14 @@ nav p {
   .img-tenebrio + p {
     margin-top: -150px;
   }
-  .tenebrio-molitor {
+  .grilo {
     margin-left: 0.2rem;
     margin-right: 0.2rem;
   }
   .efeito-h2 {
     margin-left: 0;
   }
-  .titulo {
+  .titulo-principal {
     max-width: 280px;
   }
   ul {
@@ -261,67 +228,28 @@ nav p {
   .logo .logo-effect .destaque-bkg {
     margin-left: 10px;
   }
-  #permitidos {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-  }
-
-  #permitidos ul {
-    width: 100%;
-  }
-
-  #permitidos ul li {
-    display: flex;
-    flex-direction: column;
-    margin-left: 20px;
-  }
-
-  #permitidos li div {
-    display: flex;
-  }
-
-  #permitidos li span {
-    margin-top: 0.3rem;
-    text-align: justify;
-  }
-
-  #permitidos img {
-    width: 40px;
-  }
-
-  #permitidos span {
-    display: flex;
-    flex-direction: row-reverse;
-  }
-
-  #permitidos span img {
-    height: fit-content;
-  }
-
   footer nav {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   footer img {
     width: 44px;
   }
-  
+
   footer a {
     all: unset;
     cursor: pointer;
   }
-  
+
   nav p {
     display: flex;
     align-items: center;
     margin: 5px 0px;
     padding: 0px 2px;
   }
-  
+
   .footer-bottom {
     font-size: 1rem;
     margin-top: 2rem;
